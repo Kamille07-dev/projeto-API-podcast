@@ -30,18 +30,25 @@ Os episódios seguem o seguinte formato:
     ...
 ]
 
- Como funciona
-A aplicação backend usa o módulo nativo do Node.js para criar um servidor HTTP básico. As rotas disponíveis são:
+## 🛠️ Como funciona
+
+A aplicação backend usa o módulo nativo do **Node.js** para criar um servidor HTTP simples. As rotas disponíveis são:
+
+### 📥 Rotas
 
 | Método | Rota        | Descrição                            |
-| ------ | ----------- | ------------------------------------ |
+|--------|-------------|--------------------------------------|
 | GET    | `/podcasts` | Retorna todos os episódios           |
 | GET    | `/episode`  | Retorna episódios filtrados por nome |
 
-| Ferramenta     | Descrição                                       |
-| -------------- | ----------------------------------------------- |
-| **Node.js**    | Execução do servidor backend                    |
-| **TypeScript** | Tipagem estática e melhor organização de código |
-| **TSX**        | Utilitário moderno para rodar projetos TS/JS    |
-| **Tsup**       | Empacotador rápido para gerar builds            |
-| **YouTube**    | Fonte dos vídeos dos episódios                  |
+
+## 🧰 Tecnologias utilizadas
+
+| Ferramenta   | Descrição                                           |
+|--------------|-----------------------------------------------------|
+| **Node.js**  | Execução do servidor backend                        |
+| **TypeScript** | Tipagem estática e melhor organização de código   |
+| **TSX**      | Execução moderna de arquivos TS com `.env`          |
+| **Tsup**     | Empacotador rápido para gerar builds                |
+| **YouTube**  | Fonte dos vídeos dos episódios                      |
+
