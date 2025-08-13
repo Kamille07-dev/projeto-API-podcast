@@ -1,6 +1,6 @@
 import fs from "fs"
 import path from "path"
-import { PodcastModel } from "../models/podcast-model";
+import { PodcastModel } from "../models/podcast-transfer-model";
 
 
 
