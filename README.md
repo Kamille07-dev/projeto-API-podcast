@@ -53,3 +53,7 @@ A aplicação backend usa o módulo nativo do **Node.js** para criar um servidor
 | **Tsup**     | Empacotador rápido para gerar builds                |
 | **YouTube**  | Fonte dos vídeos dos episódios                      |
 
+
+
+
+
