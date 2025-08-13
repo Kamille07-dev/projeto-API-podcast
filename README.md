@@ -29,6 +29,7 @@ Os episódios seguem o seguinte formato:
     },
     ...
 ]
+```
 
 ## 🛠️ Como funciona
 
